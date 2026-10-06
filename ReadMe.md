@@ -1,5 +1,3 @@
-THIS IS AN ONGOING PROJECT!!
-
 # Project Overview
 
 > **Chips Sales Performance Analysis.**
