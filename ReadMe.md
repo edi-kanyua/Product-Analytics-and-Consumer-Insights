@@ -19,4 +19,65 @@ and track changes in consumer spending over time.
 > **Project Objective**:
 
 > This project aims to identify the key drivers of chips sales & customer spending, so as to enable the business to 
-make data-driven decisions regarding its customers, chips products, and pricing. 
+make data-driven decisions regarding its customers, chips products, and pricing.
+
+**Dataset**
+
+The analysis combines transaction-level sales data with customer information.
+
+Key variables include:
+
+DATE — transaction date
+
+PROD_QTY — quantity purchased
+
+TOT_SALES — total transaction sales
+
+BRAND — chips brand
+
+PCK_SIZE — packet size in grams
+
+PREMIUM_CUSTOMER — customer segment
+
+**Data Preparation**
+
+The analysis included:
+
+Converting Excel serial dates to datetime.
+
+Checking both datasets for missing values.
+
+Investigating duplicate records.
+
+Investigating extreme values in product quantity.
+
+Creating derived measures such as spend per packet.
+
+Aggregating sales by customer segment, packet size, brand, and week.
+
+**Tools & Technologies**
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Jupyter Notebook
+
+**Project Structure**
+
+chips-sales-analysis/
+│
+├── chips_sales_analysis.ipynb
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+**Author**
+
+Edi Kanyua
